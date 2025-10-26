@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  chatfiscal:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    container_name: chatfiscal_container

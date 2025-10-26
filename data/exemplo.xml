@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nfse>
+	<nf>
+		<numero_nfse>1536970</numero_nfse>
+		<serie_nfse>1</serie_nfse>
+		<data_nfse>29/09/2025</data_nfse>
+		<data_fato>29/09/2025</data_fato>
+		<hora_nfse>11:02:58</hora_nfse>
+		<situacao_codigo_nfse>1</situacao_codigo_nfse>
+		<situacao_descricao_nfse>Emitida</situacao_descricao_nfse>
+		<link_nfse>https://lapa.atende.net/autoatendimento/servicos/consulta-de-autenticidade-de-nota-fiscal-eletronica-nfse/detalhar/1/identificador/7657290925110258330025589752099999999991</link_nfse>
+		<cod_verificador_autenticidade>7657290925110258330025589752099999999991</cod_verificador_autenticidade>
+		<chave_acesso_nfse_nacional>41132051202558975000165000000153697025099999999997</chave_acesso_nfse_nacional>
+		<valor_total>144,63</valor_total>
+		<valor_desconto>0,00</valor_desconto>
+		<valor_ir>0,00</valor_ir>
+		<valor_inss>0,00</valor_inss>
+		<valor_contribuicao_social>0,00</valor_contribuicao_social>
+		<valor_rps>0,00</valor_rps>
+		<valor_pis>0,00</valor_pis>
+		<valor_cofins>0,00</valor_cofins>
+		<observacao>MENSALIDADE EAD</observacao>
+	</nf>
+	<prestador>
+		<cpfcnpj>02558975000165</cpfcnpj>
+		<cidade>7657</cidade>
+	</prestador>
+	<tomador>
+		<tipo>F</tipo>
+		<cpfcnpj>10125644795</cpfcnpj>
+		<ie></ie>
+		<sobrenome_nome_fantasia>0</sobrenome_nome_fantasia>
+		<nome_razao_social>GEOVANE SANT GOMERY</nome_razao_social>
+		<numero_residencia>350</numero_residencia>
+		<complemento>CASA</complemento>
+		<ponto_referencia>0</ponto_referencia>
+		<pais>Brasil</pais>
+		<siglaPais>BR</siglaPais>
+		<codigoIbgePais>1058</codigoIbgePais>
+		<estado>PE</estado>
+		<cidade>2419</cidade>
+		<logradouro>RUA ismael tino e silva</logradouro>
+		<bairro>aloisio souto pinto</bairro>
+		<cep>55292085</cep>
+		<ddd_fone_residencial>0</ddd_fone_residencial>
+		<ddd_fone_comercial>0</ddd_fone_comercial>
+		<fone_residencial></fone_residencial>
+		<fone_comercial>0</fone_comercial>
+		<ddd_fax>0</ddd_fax>
+		<fone_fax>0</fone_fax>
+		<email>gsgomery@gmail.com</email>
+	</tomador>
+	<itens>
+		<lista>
+			<codigo_local_prestacao_servico>7657</codigo_local_prestacao_servico>
+			<codigo_item_lista_servico>801</codigo_item_lista_servico>
+			<descritivo>MENSALIDADE EAD</descritivo>
+			<aliquota_item_lista_servico>2,0000</aliquota_item_lista_servico>
+			<situacao_tributaria>0</situacao_tributaria>
+			<valor_tributavel>144,63</valor_tributavel>
+			<valor_deducao>0,00</valor_deducao>
+			<valor_issrf>0,00</valor_issrf>
+			<valor_desconto_incondicional>0,00</valor_desconto_incondicional>
+			<unidade_codigo>1</unidade_codigo>
+			<unidade_quantidade>1,00</unidade_quantidade>
+			<unidade_valor_unitario>144,6300</unidade_valor_unitario>
+			<tributa_municipio_prestador>S</tributa_municipio_prestador>
+		</lista>
+	</itens>
+</nfse>
