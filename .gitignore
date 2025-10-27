@@ -1,1 +1,18 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit secrets and local state
+.streamlit/secrets.toml
+memoria_chatfiscal/
+
+# OS files
+.DS_Store
+
+# Logs and temporary files
+*.log
 venv/

@@ -200,6 +200,58 @@ O ChatFiscal segue uma arquitetura modular composta por um Agente Pai (`AgentMan
   - `validar_arquivo()`: Valida os dados carregados e retorna um relatório de inconsistências.
   - `gerar_resposta(pergunta)`: Gera respostas inteligentes com base nos dados carregados.
 
+## ☁️ Deploy para avaliação — Streamlit Community Cloud
+
+Recomendado para avaliação acadêmica assíncrona. O Streamlit Community Cloud permite deploy direto do GitHub com URL pública persistente (ideal para avaliadores acessarem a qualquer momento).
+
+Passos rápidos:
+
+1. Faça push do repositório para o GitHub (branch `main` ou outro branch público/privado que você vincule):
+   ```bash
+   git add .
+   git commit -m "Prepare for Streamlit Cloud deploy"
+   git push origin main
+   ```
+
+2. Crie uma conta em https://share.streamlit.io/ e conecte seu repositório GitHub.
+
+3. Ao criar o app no Streamlit Cloud, selecione o repositório e o branch. Nas configurações do app:
+   - Informe o comando de inicialização (se necessário): `streamlit run app.py`
+   - Insira variáveis sensíveis em "Secrets" (por exemplo, chaves de API) em vez de armazená-las no repositório.
+
+4. Confirme o `requirements.txt` (já incluído neste repositório) para garantir que o Cloud instale todas as dependências. Se você alterou dependências localmente, atualize o arquivo com:
+   ```bash
+   # com o venv ativo
+   python -m pip freeze > requirements.txt
+   git add requirements.txt
+   git commit -m "Update requirements for Streamlit Cloud"
+   git push
+   ```
+
+Observações para avaliadores
+- Os arquivos de dados (CSV/XML) devem ser carregados via interface do app (upload). Não há arquivos de exemplo obrigatórios no repositório — o avaliador pode fazer upload dos próprios casos de teste.
+- Se o app precisar de chaves de API (LLM, etc.), configure-as em Settings → Secrets no painel do Streamlit Cloud antes de iniciar o app.
+
+Limitações e recomendações
+- O Streamlit Cloud impõe limites de recursos (memória/CPU). Para conjuntos de dados muito grandes (>100MB) ou funcionalidades com FAISS em memória, considere usar amostras reduzidas para a avaliação.
+- Para demonstrações críticas ou com maior carga, prefira um deploy via Docker/Cloud Run ou um ambiente que ofereça mais recursos.
+
+Se quiser, eu posso:
+- Preparar um `config.toml` em `.streamlit/` com limites e tema (já criado).
+- Verificar e garantir que o `requirements.txt` esteja atualizado e mínimo para o deploy.
+- Escrever um pequeno trecho no `README.md` (nesta mesma seção) com um roteiro de avaliação passo-a-passo que você pode fornecer aos professores.
+
+---
+
+## 📘 Guia rápido para avaliadores (sugestão de roteiro)
+
+1. Acesse a URL do app (fornecida pelo autor).
+2. Na aba "Dados & Perguntas", faça upload de um arquivo CSV ou XML.
+3. Verifique o relatório de auditoria — observe CFOPs inválidos, valores negativos e notas sem emitente.
+4. Faça uma pergunta no campo de texto (ex.: "Qual o faturamento total por mês?") e avalie a resposta.
+5. Gere um relatório em PDF e confira a integridade dos dados exportados.
+
+
 ### **Módulos Filhos**
 1. **Leitor de Arquivos**:
    - **Responsabilidade**: Processar arquivos CSV e XML.
