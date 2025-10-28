@@ -20,6 +20,17 @@ from langchain_core.documents import Document
 import numpy as np
 from difflib import SequenceMatcher
 
+# Configuração de logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('memory_chatfiscal.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
 # Tenta importar FAISS e HuggingFace, mas oferece fallback se não disponível
 try:
     import faiss
