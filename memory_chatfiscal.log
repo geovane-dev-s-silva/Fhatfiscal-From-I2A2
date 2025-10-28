@@ -1480,3 +1480,39 @@
 2025-10-26 15:17:14,351 - INFO - DEBUG: 1 explicações geradas
 2025-10-26 15:17:14,351 - INFO - DEBUG formatar: 1 explicações
 2025-10-26 15:17:14,351 - INFO - DEBUG: Adicionando explicações
+2025-10-26 15:55:57,715 - INFO - Use pytorch device_name: cpu
+2025-10-26 15:55:57,715 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-26 15:56:02,687 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-26 15:56:05,697 - INFO - Embeddings carregados com sucesso
+2025-10-26 15:56:05,708 - INFO - Use pytorch device_name: cpu
+2025-10-26 15:56:05,708 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-26 15:56:08,177 - INFO - Memoria Inteligente inicializada
+2025-10-26 15:56:08,177 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-27 20:35:37,724 - INFO - Use pytorch device_name: cpu
+2025-10-27 20:35:37,724 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:35:49,194 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:35:51,678 - INFO - Embeddings carregados com sucesso
+2025-10-27 20:35:51,692 - INFO - Use pytorch device_name: cpu
+2025-10-27 20:35:51,692 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:35:54,735 - INFO - Memoria Inteligente inicializada
+2025-10-27 20:35:54,736 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-27 20:44:14,556 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:44:17,849 - INFO - Embeddings carregados com sucesso
+2025-10-27 20:44:17,865 - INFO - Use pytorch device_name: cpu
+2025-10-27 20:44:17,865 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:44:20,424 - INFO - Memoria Inteligente inicializada
+2025-10-27 20:44:20,424 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-27 20:44:28,731 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:44:31,921 - INFO - Embeddings carregados com sucesso
+2025-10-27 20:44:31,936 - INFO - Use pytorch device_name: cpu
+2025-10-27 20:44:31,939 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-27 20:44:34,842 - INFO - Memoria Inteligente inicializada
+2025-10-27 20:44:34,842 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-27 20:44:34,846 - INFO - Carregando arquivo: nfse_1536970_31363_1_1.xml
+2025-10-27 20:44:35,496 - INFO - 'nfse_1536970_31363_1_1.xml' adicionado com 1 linhas. Total: 1 linhas unicas
+2025-10-27 20:44:35,757 - INFO - DEBUG: Iniciando Corujito
+2025-10-27 20:44:35,773 - INFO - DEBUG: Linhas vazias: 0
+2025-10-27 20:44:35,773 - INFO - DEBUG: Tipo: NFSe
+2025-10-27 20:44:35,788 - INFO - DEBUG: 0 colunas com null
+2025-10-27 20:44:35,790 - INFO - DEBUG: 0 explicações geradas
+2025-10-27 20:44:35,790 - INFO - DEBUG formatar: 0 explicações

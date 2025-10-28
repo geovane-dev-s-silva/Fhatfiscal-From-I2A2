@@ -16,10 +16,19 @@ import threading
 import logging
 from typing import List, Dict, Any, Optional
 from datetime import datetime
-import numpy as np
-import faiss
-from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.documents import Document
+import numpy as np
+from difflib import SequenceMatcher
+
+# Tenta importar FAISS e HuggingFace, mas oferece fallback se não disponível
+try:
+    import faiss
+    from langchain_community.embeddings import HuggingFaceEmbeddings
+    HAVE_FAISS = True
+    logger.info("✅ FAISS disponível - usando busca vetorial")
+except ImportError:
+    HAVE_FAISS = False
+    logger.warning("⚠️ FAISS não disponível - usando fallback com busca por similaridade de string")
 
 # Configuração de logging
 logging.basicConfig(
@@ -31,6 +40,54 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+
+class SimpleStringEmbeddings:
+    """Fallback simples quando HuggingFace/FAISS não estão disponíveis."""
+    
+    def embed_query(self, text: str) -> List[float]:
+        """Retorna uma representação simples do texto como vetor."""
+        # Usa um hash do texto normalizado como embedding
+        # Não é semântico, mas permite matching básico
+        norm_text = text.lower().strip()
+        hash_val = hash(norm_text)
+        # Converte o hash em uma lista de 10 números
+        return [(hash_val >> i) & 0xFF for i in range(0, 80, 8)]
+    
+    def embed_documents(self, texts: List[str]) -> List[List[float]]:
+        """Embeddings para múltiplos textos."""
+        return [self.embed_query(text) for text in texts]
+
+
+class SimpleVectorStore:
+    """Armazenamento vetorial simples usando similaridade de string."""
+    
+    def __init__(self, dimension: int = 10):
+        self.texts = []  # armazena textos originais
+        self.vectors = []  # armazena vetores (hashes)
+    
+    def add(self, vectors: np.ndarray):
+        """Adiciona vetores ao store."""
+        if isinstance(vectors, np.ndarray):
+            vectors = vectors.tolist()
+        if not isinstance(vectors, list):
+            vectors = [vectors]
+        self.vectors.extend(vectors)
+    
+    def search(self, query_vector: np.ndarray, k: int = 4) -> tuple:
+        """Busca os k vetores mais similares."""
+        if isinstance(query_vector, np.ndarray):
+            query_vector = query_vector.tolist()
+        
+        # Usa SequenceMatcher para comparar strings
+        scores = []
+        for vec in self.vectors:
+            score = SequenceMatcher(None, str(query_vector), str(vec)).ratio()
+            scores.append(score)
+        
+        # Retorna os k índices mais similares
+        indices = np.argsort(scores)[-k:][::-1]
+        return indices, [scores[i] for i in indices]
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -154,16 +211,21 @@ class MemoriaInteligente:
         
         # Inicialização de embeddings
         try:
-            self.embeddings = HuggingFaceEmbeddings(model_name=model_name)
-            logger.info(f"✅ Embeddings carregados: {model_name}")
+            if HAVE_FAISS:
+                self.embeddings = HuggingFaceEmbeddings(model_name=model_name)
+                logger.info(f"✅ Embeddings HuggingFace carregados: {model_name}")
+            else:
+                self.embeddings = SimpleStringEmbeddings()
+                logger.info("✅ Usando embeddings simples (fallback)")
         except Exception as e:
             logger.error(f"❌ Erro ao carregar embeddings: {e}")
-            raise
+            self.embeddings = SimpleStringEmbeddings()
+            logger.warning("⚠️ Fallback para embeddings simples após erro")
         
         # Estruturas de dados
         self.historico: List[Dict[str, Any]] = []
         self.metadados: List[Dict[str, Any]] = []
-        self.index: Optional[faiss.Index] = None
+        self.index = None
         self.dimension: Optional[int] = None
         
         # Thread-safety
@@ -184,7 +246,10 @@ class MemoriaInteligente:
                 
                 if self.index is None:
                     self.dimension = len(vetor)
-                    self.index = faiss.IndexFlatL2(self.dimension)
+                    if HAVE_FAISS:
+                        self.index = faiss.IndexFlatL2(self.dimension)
+                    else:
+                        self.index = SimpleVectorStore(dimension=self.dimension)
                     logger.info(f"🔧 Índice FAISS criado | Dimensão: {self.dimension}")
                 
                 self.index.add(vetor_np)
