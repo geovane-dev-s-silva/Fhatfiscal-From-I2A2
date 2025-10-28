@@ -15,16 +15,8 @@ def aplicar_estilo():
             .stApp {
                 background-color: #0D1B2A !important;
             }
-            h1, h2, h3, h4, h5, h6 {
+            h1, h2, h3, h4, h5, h6, p, span, div {
                 color: #FFD700 !important;
-            }
-            p, span, div, label, .stTextInput, .stTextArea, .stSelectbox, .stDownloadButton, .stButton {
-                color: #222 !important;
-            }
-            /* Corrige cor do texto dentro de caixas de input */
-            .stTextInput input, .stTextArea textarea {
-                color: #222 !important;
-                background: #fff !important;
             }
         </style>
         """,
@@ -102,7 +94,7 @@ def exibir_dica_corujito(dica):
                     <p style='color: #FFD700; font-size: 16px; font-weight: bold; margin-bottom: 8px;'>
                         💡 Dica do Corujito Fiscal:
                     </p>
-                    <p style='color: #FFF; font-size: 15px; font-family: monospace; 
+                    <p style='color: #FFD700; font-size: 15px; font-family: monospace; 
                               line-height: 1.6; white-space: pre-wrap;'>{texto}</p>
                 </div>
                 """,
@@ -162,7 +154,7 @@ def exibir_dica_corujito_rapida(dica):
                 <p style='color: #FFD700; font-size: 16px; font-weight: bold; margin-bottom: 8px;'>
                     💡 Dica do Corujito Fiscal:
                 </p>
-                <p style='color: #FFF; font-size: 15px; font-family: monospace; 
+                <p style='color: #FFD700; font-size: 15px; font-family: monospace; 
                           line-height: 1.6; white-space: pre-wrap;'>{dica}</p>
             </div>
             """,
@@ -203,7 +195,7 @@ def exibir_resposta_agente(pergunta, resposta):
             <div style='background-color: #0D1B2A; border: 2px solid #FFD700; 
                         padding: 10px; border-radius: 10px; box-shadow: 0 0 10px #FFD700;'>
                 <strong style='color: #FFD700;'>Agente Fiscal:</strong><br>
-                <span style='color: #FFF;'>{resposta}</span>
+                <span style='color: #FFD700;'>{resposta}</span>
             </div>
             """,
             unsafe_allow_html=True
@@ -238,16 +230,16 @@ def exibir_rodape():
         st.markdown(
             """
             <div style='margin-top: 6px;'>
-                <p style='color: #222; font-size: 16px; margin-bottom: 6px;'>
+                <p style='color: #FFD700; font-size: 16px; margin-bottom: 6px;'>
                     <strong>Projeto desenvolvido pelos Alquimistas Digitais, através da I2a2 — Instituto de Inteligência Artificial Aplicada</strong>
                 </p>
-                <p style='color: #222; font-size: 14px; margin-bottom: 4px;'>
+                <p style='color: #FFD700; font-size: 14px; margin-bottom: 4px;'>
                     Este agente fiscal autônomo é fruto de uma iniciativa educacional que desafia alunos a criar soluções inteligentes e inovadoras.
                 </p>
                 <p style='color: #FFD700; font-size: 14px; margin-bottom: 4px;'>
                     Versão 2.0 — Outubro de 2025
                 </p>
-                <p style='color: #222; font-size: 14px;'>
+                <p style='color: #FFD700; font-size: 14px;'>
                     Feito com muito carinho, lógica afiada e uma pitada de criatividade.  
                     <br>© Alquimistas Digitais. Todos os direitos reservados.
                 </p>
