@@ -16,3 +16,4 @@ memoria_chatfiscal/
 # Logs and temporary files
 *.log
 venv/
+memory_chatfiscal.log

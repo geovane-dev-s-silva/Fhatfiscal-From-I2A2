@@ -1856,3 +1856,146 @@
 2025-10-28 21:55:38,517 - INFO - AgentManager inicializado com memoria inteligente
 2025-10-28 21:56:04,353 - INFO - Use pytorch device_name: cpu
 2025-10-28 21:56:04,353 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:56:07,450 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:56:09,739 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:56:09,776 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:56:09,777 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:56:12,154 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:56:12,155 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:58:45,899 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:58:48,883 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:58:48,913 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:58:48,914 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:58:51,802 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:58:51,803 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:58:51,824 - INFO - Carregando arquivo: 202501_nfe_notafiscal.csv
+2025-10-28 21:58:53,418 - INFO - '202501_nfe_notafiscal.csv' adicionado com 54441 linhas. Total: 54441 linhas unicas
+2025-10-28 21:58:54,514 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 21:58:55,368 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 21:58:55,368 - INFO - DEBUG: Tipo: None
+2025-10-28 21:58:55,458 - INFO - DEBUG: 0 colunas com null
+2025-10-28 21:58:55,535 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 21:58:55,536 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:02:51,628 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:02:54,583 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:02:54,610 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:02:54,611 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:02:57,142 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:02:57,143 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:02:57,163 - INFO - Carregando arquivo: 202501_nfe_notafiscal.csv
+2025-10-28 22:02:58,431 - INFO - '202501_nfe_notafiscal.csv' adicionado com 54441 linhas. Total: 54441 linhas unicas
+2025-10-28 22:02:58,995 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:02:59,793 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:02:59,794 - INFO - DEBUG: Tipo: None
+2025-10-28 22:02:59,851 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:02:59,914 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:02:59,915 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:05:47,645 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:05:50,530 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:05:50,567 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:05:50,567 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:05:53,313 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:05:53,313 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:05:53,330 - INFO - Carregando arquivo: 202501_nfe_notafiscal.csv
+2025-10-28 22:05:54,607 - INFO - '202501_nfe_notafiscal.csv' adicionado com 54441 linhas. Total: 54441 linhas unicas
+2025-10-28 22:05:55,211 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:05:56,055 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:05:56,055 - INFO - DEBUG: Tipo: None
+2025-10-28 22:05:56,108 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:05:56,178 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:05:56,179 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:06:22,591 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:06:25,920 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:06:25,945 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:06:25,945 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:06:28,486 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:06:28,487 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:06:28,505 - INFO - Carregando arquivo: 202501_nfe_notafiscal.csv
+2025-10-28 22:06:29,737 - INFO - '202501_nfe_notafiscal.csv' adicionado com 54441 linhas. Total: 54441 linhas unicas
+2025-10-28 22:06:30,285 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:06:31,074 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:06:31,074 - INFO - DEBUG: Tipo: None
+2025-10-28 22:06:31,141 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:06:31,191 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:06:31,191 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:07:13,779 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:07:16,829 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:07:16,855 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:07:16,855 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:07:19,313 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:07:19,314 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:07:19,335 - INFO - Carregando arquivo: 202501_nfe_notafiscal.csv
+2025-10-28 22:07:20,703 - INFO - '202501_nfe_notafiscal.csv' adicionado com 54441 linhas. Total: 54441 linhas unicas
+2025-10-28 22:07:21,216 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:07:22,022 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:07:22,023 - INFO - DEBUG: Tipo: None
+2025-10-28 22:07:22,098 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:07:22,175 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:07:22,175 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:08:47,610 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:08:50,617 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:08:50,651 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:08:50,652 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:08:53,049 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:08:53,050 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:08:53,639 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:08:54,519 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:08:54,519 - INFO - DEBUG: Tipo: None
+2025-10-28 22:08:54,621 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:08:54,706 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:08:54,707 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:09:46,067 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:09:49,205 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:09:49,241 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:09:49,241 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:09:52,148 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:09:52,149 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:09:52,748 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:09:53,545 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:09:53,545 - INFO - DEBUG: Tipo: None
+2025-10-28 22:09:53,622 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:09:53,686 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:09:53,686 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:09:58,644 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:10:01,106 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:10:01,122 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:10:01,123 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:10:03,756 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:10:03,756 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:10:04,332 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:10:05,184 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:10:05,184 - INFO - DEBUG: Tipo: None
+2025-10-28 22:10:05,256 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:10:05,323 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:10:05,323 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:10:33,635 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:10:37,064 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:10:37,093 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:10:37,093 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:10:39,915 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:10:39,915 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:10:40,541 - INFO - DEBUG: Iniciando Corujito
+2025-10-28 22:10:41,468 - INFO - DEBUG: Linhas vazias: 0
+2025-10-28 22:10:41,469 - INFO - DEBUG: Tipo: None
+2025-10-28 22:10:41,534 - INFO - DEBUG: 0 colunas com null
+2025-10-28 22:10:41,622 - INFO - DEBUG: 0 explicações geradas
+2025-10-28 22:10:41,623 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 22:10:47,651 - INFO - Todos os dados foram limpos (memoria inteligente preservada)
+2025-10-28 22:10:48,019 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:10:50,817 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:10:50,857 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:10:50,857 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:10:53,470 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:10:53,470 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:11:46,131 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:11:48,948 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:11:48,971 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:11:48,971 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:11:51,293 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:11:51,293 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 22:12:52,973 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:12:56,154 - INFO - Embeddings carregados com sucesso
+2025-10-28 22:12:56,182 - INFO - Use pytorch device_name: cpu
+2025-10-28 22:12:56,182 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 22:12:58,682 - INFO - Memoria Inteligente inicializada
+2025-10-28 22:12:58,683 - INFO - AgentManager inicializado com memoria inteligente
