@@ -1516,3 +1516,343 @@
 2025-10-27 20:44:35,788 - INFO - DEBUG: 0 colunas com null
 2025-10-27 20:44:35,790 - INFO - DEBUG: 0 explicações geradas
 2025-10-27 20:44:35,790 - INFO - DEBUG formatar: 0 explicações
+2025-10-28 20:04:09,556 - INFO - Loading faiss with AVX2 support.
+2025-10-28 20:04:10,332 - INFO - Successfully loaded faiss with AVX2 support.
+2025-10-28 20:04:10,567 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:04:10,567 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:04:22,389 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:04:25,256 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:04:25,263 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:04:25,292 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:04:28,410 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:04:28,411 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:08:07,890 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:08:10,830 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:08:10,830 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:08:10,830 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:08:13,481 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:08:13,481 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:13:36,123 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:13:36,123 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:14:35,774 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:14:35,774 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:14:39,356 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:14:42,218 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:14:42,227 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:14:42,228 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:14:44,941 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:14:44,941 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:18:38,524 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:18:38,524 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:18:41,689 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:18:44,125 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:18:44,135 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:18:44,135 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:18:46,476 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:18:46,483 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:19:20,335 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:19:20,335 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:19:23,684 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:19:26,333 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:19:26,336 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:19:26,336 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:19:28,819 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:19:28,819 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:24:03,977 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:24:03,978 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:24:07,441 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:24:09,709 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:24:09,726 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:24:09,727 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:24:12,066 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:24:12,066 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:27:46,630 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:27:46,631 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:27:49,865 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:27:52,552 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:27:52,568 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:27:52,568 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:27:55,067 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:27:55,068 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:28:24,517 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:28:24,519 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:28:27,473 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:28:29,881 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:28:29,881 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:28:29,881 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:28:32,316 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:28:32,317 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:29:18,411 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:29:18,412 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:29:21,618 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:29:24,002 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:29:24,013 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:29:24,013 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:29:26,569 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:29:26,569 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:30:08,830 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:30:08,830 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:30:11,814 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:30:14,211 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:30:14,227 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:30:14,227 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:30:16,656 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:30:16,657 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:30:35,177 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:30:35,178 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:30:38,345 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:30:40,709 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:30:40,720 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:30:40,721 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:30:43,193 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:30:43,194 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:30:56,669 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:30:56,669 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:31:00,161 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:31:03,092 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:31:03,110 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:31:03,110 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:31:05,707 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:31:05,708 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:31:42,956 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:31:42,956 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:31:45,879 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:31:48,214 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:31:48,230 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:31:48,230 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:31:50,569 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:31:50,569 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:33:55,163 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:33:55,163 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:33:58,279 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:34:00,708 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:34:00,708 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:34:00,708 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:34:02,961 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:34:02,962 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:34:32,498 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:34:32,498 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:34:35,922 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:34:38,320 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:34:38,336 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:34:38,336 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:34:40,778 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:34:40,779 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:35:02,977 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:35:02,977 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:35:05,942 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:35:08,218 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:35:08,243 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:35:08,243 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:35:10,871 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:35:10,872 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:36:00,300 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:36:00,301 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:36:03,383 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:36:05,807 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:36:05,823 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:36:05,823 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:36:08,345 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:36:08,345 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:41:32,337 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:41:32,337 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:41:35,563 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:41:38,297 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:41:38,313 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:41:38,313 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:41:40,845 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:41:40,846 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:47:04,555 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:47:04,555 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:47:07,681 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:47:09,928 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:47:09,943 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:47:09,943 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:47:12,339 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:47:12,339 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:47:52,176 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:47:52,176 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:47:55,309 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:47:57,658 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:47:57,682 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:47:57,683 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:48:00,148 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:48:00,149 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:51:56,962 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:51:56,963 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:52:00,033 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:52:02,376 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:52:02,376 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:52:02,376 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:52:04,736 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:52:04,737 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:52:46,376 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:52:46,376 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:52:49,283 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:52:51,592 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:52:51,612 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:52:51,612 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:52:53,904 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:52:53,905 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:56:12,777 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:56:12,778 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:56:17,417 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:56:21,685 - INFO - Embeddings carregados com sucesso
+2025-10-28 20:56:21,699 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:56:21,699 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 20:56:25,569 - INFO - Memoria Inteligente inicializada
+2025-10-28 20:56:25,569 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 20:59:57,354 - INFO - Use pytorch device_name: cpu
+2025-10-28 20:59:57,354 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:00:00,791 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:00:03,424 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:00:03,445 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:00:03,446 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:00:06,110 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:00:06,111 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:01:19,975 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:01:19,975 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:02:57,494 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:02:57,495 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:04:11,957 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:04:11,957 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:04:40,929 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:04:40,930 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:09:21,231 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:09:21,231 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:10:04,256 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:10:04,256 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:10:07,404 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:10:10,076 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:10:10,098 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:10:10,098 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:10:12,647 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:10:12,649 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:15:20,425 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:15:20,425 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:15:23,912 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:15:26,331 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:15:26,356 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:15:26,357 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:15:28,847 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:15:28,847 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:16:46,109 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:16:46,109 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:16:49,115 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:16:51,399 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:16:51,419 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:16:51,420 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:16:54,037 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:16:54,037 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:20:29,389 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:20:29,390 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:20:32,807 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:20:35,185 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:20:35,204 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:20:35,204 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:20:37,646 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:20:37,647 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:21:49,959 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:21:52,905 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:21:52,919 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:21:52,920 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:21:55,750 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:21:55,751 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:24:48,880 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:24:48,881 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:24:52,949 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:24:55,540 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:24:55,558 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:24:55,559 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:24:58,061 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:24:58,061 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:25:28,437 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:25:28,437 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:25:32,031 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:25:34,435 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:25:34,456 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:25:34,456 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:25:37,260 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:25:37,261 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:25:50,104 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:25:53,104 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:25:53,122 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:25:53,122 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:25:55,986 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:25:55,987 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:28:03,674 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:28:03,675 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:28:06,741 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:28:09,142 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:28:09,156 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:28:09,157 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:28:11,550 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:28:11,550 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:29:04,517 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:29:04,518 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:29:08,311 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:29:10,874 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:29:10,905 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:29:10,907 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:29:13,546 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:29:13,547 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:30:06,652 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:30:09,444 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:30:09,461 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:30:09,461 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:30:11,860 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:30:11,861 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:36:37,618 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:36:37,618 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:36:40,720 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:36:43,042 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:36:43,066 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:36:43,068 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:36:45,518 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:36:45,518 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:37:34,453 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:37:34,453 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:37:37,502 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:37:39,833 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:37:39,870 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:37:39,871 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:37:42,244 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:37:42,244 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:38:32,583 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:38:32,583 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:38:36,238 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:38:38,998 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:38:39,022 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:38:39,022 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:38:41,621 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:38:41,622 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:39:13,763 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:39:13,763 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:39:17,215 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:39:19,799 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:39:19,826 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:39:19,826 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:39:23,066 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:39:23,066 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:43:40,409 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:43:40,409 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:45:54,630 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:45:54,631 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:54:38,936 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:54:38,936 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:54:42,032 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:54:44,485 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:54:44,504 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:54:44,504 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:54:46,898 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:54:46,899 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:55:29,802 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:55:29,803 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:55:33,179 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:55:36,030 - INFO - Embeddings carregados com sucesso
+2025-10-28 21:55:36,052 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:55:36,052 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-28 21:55:38,517 - INFO - Memoria Inteligente inicializada
+2025-10-28 21:55:38,517 - INFO - AgentManager inicializado com memoria inteligente
+2025-10-28 21:56:04,353 - INFO - Use pytorch device_name: cpu
+2025-10-28 21:56:04,353 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2

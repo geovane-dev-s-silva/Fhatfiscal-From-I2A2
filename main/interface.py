@@ -15,8 +15,11 @@ def aplicar_estilo():
             .stApp {
                 background-color: #0D1B2A !important;
             }
-            h1, h2, h3, h4, h5, h6, p, span, div {
+            h1, h2, h3, h4, h5, h6, div {
                 color: #FFD700 !important;
+            }
+            span {
+                color: #0D1B2A !important;
             }
         </style>
         """,
@@ -26,17 +29,49 @@ def aplicar_estilo():
 
 # 🖼️ Logo do ChatFiscal (fixo no topo)
 def exibir_logo():
-    with st.container():
-        st.markdown("<div style='text-align: center;'>", unsafe_allow_html=True)
-        if os.path.exists("assets/logo_chatfiscal.png"):
+    if os.path.exists("assets/logo_chatfiscal.png"):
+        col1, col2, col3 = st.columns([1.5, 1.5, 1])
+        with col2:
             st.image("assets/logo_chatfiscal.png", width=260)
-        st.markdown("</div>", unsafe_allow_html=True)
 
 
 # 💬 Boas-vindas como popup (toast)
+def exibir_toast(mensagem, cor="#FFD700", duracao=4):
+    toast_id = "toast_" + str(time.time()).replace(".", "")
+    st.markdown(
+        f"""
+        <style>
+        #{toast_id} {{
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background-color: {cor};
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+            z-index: 9999;
+            font-weight: bold;
+            opacity: 0;
+            animation: fadeInOut {duracao}s forwards;
+        }}
+        @keyframes fadeInOut {{
+            0% {{ opacity: 0; transform: translateY(-10px); }}
+            10% {{ opacity: 1; transform: translateY(0); }}
+            90% {{ opacity: 1; transform: translateY(0); }}
+            100% {{ opacity: 0; transform: translateY(-10px); }}
+        }}
+        </style>
+        <div id="{toast_id}">
+             👋 {mensagem}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 def boas_vindas():
     if "boas_vindas_exibida" not in st.session_state:
-        st.toast("👋 Bem-vindo(a) ao ChatFiscal! Seu parceiro inteligente para análise tributária.", icon="💼")
+        exibir_toast("Bem-vindo(a) ao ChatFiscal! Seu parceiro inteligente para análise tributária.", cor="#0D1B2A")
         st.session_state["boas_vindas_exibida"] = True
 
 
