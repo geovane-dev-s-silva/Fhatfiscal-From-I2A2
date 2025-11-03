@@ -1,4 +1,7 @@
 # chatfiscal
+
+**Licença:** Este projeto está licenciado sob a [MIT License](./LICENSE).
+
 Agente fiscal inteligente para análise de notas fiscais com Streamlit.
 
 ChatFiscal — Agente Inteligente para Auditoria de Notas Fiscais
